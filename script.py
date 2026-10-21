@@ -78,10 +78,10 @@ TROCR_BATCH_SIZE     = 8     # line crops per TrOCR generate() call; lower it if
 USE_MPS              = True  # Apple-silicon GPU if available (falls back to CPU on error)
 
 # ---- Branding / attribution / document metadata ----
-APP_NAME        = "Opticolumn"
+APP_NAME        = "Opticolumn Book Scan"
 APP_VERSION     = "2026"
 APP_SCRIPT      = Path(__file__).name
-APP_URL         = "https://github.com/Scholarly-Projects/opticolumn"
+APP_URL         = "https://github.com/Scholarly-Projects/opticolumn_book_scan"
 APP_AUTHOR      = "Andrew Weymouth"
 APP_INSTITUTION = "University of Idaho"
 APP_LICENSE     = "MIT"
@@ -90,7 +90,7 @@ APP_CITATION    = f"{APP_AUTHOR}. {APP_NAME} ({APP_VERSION}). {APP_INSTITUTION}.
 DOC_SUBJECT     = "OCR processed book scan"
 DOC_KEYWORDS    = "OCR; book scan; two-page spread; searchable PDF; Opticolumn; Kraken; TrOCR"
 DOC_LANGUAGE    = "en-US"
-OPT_NAMESPACE   = "https://github.com/Scholarly-Projects/opticolumn/ns/"
+OPT_NAMESPACE   = "https://github.com/Scholarly-Projects/opticolumn_book_scan/ns/"
 KEEP_SOURCE_TITLE_AUTHOR = True
 SEGMENTATION_MODEL = "Kraken blla (blla.mlmodel)"
 PAGE_LAYOUT = (

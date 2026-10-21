@@ -6,9 +6,9 @@
   </a>
 </p>
 
-__Opticolumn Toolkit__
+__Opticolumn Book Scan__
 
-This tool implements the TrOCR text recognition model and the Kraken BLLA page segmentation model to improve the accuracy of handwritten and cursive archival documents and add digital preservation metadata to processed materials.
+This tool implements the TrOCR text recognition model and the Kraken BLLA page segmentation model and multiple features specifically designed to create accurate OCR layers for scanned books. These include locating the spine of the book, identifying the left and right text elements through coordinate mapping, deskewing text sections independently and using relaxed text recognition confidence near the spine, to accommodate for raised and slightly blurred text.
 
 ### Folder Structure
 
